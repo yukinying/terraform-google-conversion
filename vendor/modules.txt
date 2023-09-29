@@ -22,7 +22,7 @@ github.com/apparentlymart/go-cidr/cidr
 github.com/apparentlymart/go-textseg/textseg
 # github.com/armon/go-radix v1.0.0
 github.com/armon/go-radix
-# github.com/aws/aws-sdk-go v1.22.0
+# github.com/aws/aws-sdk-go v1.25.3
 github.com/aws/aws-sdk-go/aws
 github.com/aws/aws-sdk-go/aws/awserr
 github.com/aws/aws-sdk-go/aws/awsutil
@@ -44,6 +44,7 @@ github.com/aws/aws-sdk-go/aws/signer/v4
 github.com/aws/aws-sdk-go/internal/ini
 github.com/aws/aws-sdk-go/internal/s3err
 github.com/aws/aws-sdk-go/internal/sdkio
+github.com/aws/aws-sdk-go/internal/sdkmath
 github.com/aws/aws-sdk-go/internal/sdkrand
 github.com/aws/aws-sdk-go/internal/sdkuri
 github.com/aws/aws-sdk-go/internal/shareddefaults
@@ -81,7 +82,7 @@ github.com/golang/protobuf/ptypes/duration
 github.com/golang/protobuf/ptypes/empty
 github.com/golang/protobuf/ptypes/timestamp
 github.com/golang/protobuf/ptypes/wrappers
-# github.com/google/go-cmp v0.3.0
+# github.com/google/go-cmp v0.3.1
 github.com/google/go-cmp/cmp
 github.com/google/go-cmp/cmp/internal/diff
 github.com/google/go-cmp/cmp/internal/flags
@@ -266,7 +267,7 @@ go.opencensus.io/trace
 go.opencensus.io/trace/internal
 go.opencensus.io/trace/propagation
 go.opencensus.io/trace/tracestate
-# golang.org/x/crypto v0.0.0-20190820162420-60c769a6c586
+# golang.org/x/crypto v0.6.0
 golang.org/x/crypto/bcrypt
 golang.org/x/crypto/blowfish
 golang.org/x/crypto/cast5
@@ -282,7 +283,11 @@ golang.org/x/exp/cmd/apidiff
 # golang.org/x/lint v0.0.0-20190409202823-959b441ac422
 golang.org/x/lint
 golang.org/x/lint/golint
-# golang.org/x/net v0.0.0-20190813141303-74dc4d7220e7
+# golang.org/x/mod v0.6.0-dev.0.20220419223038-86c51ed26bb4
+golang.org/x/mod/internal/lazyregexp
+golang.org/x/mod/module
+golang.org/x/mod/semver
+# golang.org/x/net v0.6.0
 golang.org/x/net/context
 golang.org/x/net/context/ctxhttp
 golang.org/x/net/http/httpguts
@@ -297,14 +302,15 @@ golang.org/x/oauth2/google
 golang.org/x/oauth2/internal
 golang.org/x/oauth2/jws
 golang.org/x/oauth2/jwt
-# golang.org/x/sys v0.0.0-20190624142023-c5567b49c5d0
+# golang.org/x/sys v0.5.0
+golang.org/x/sys/execabs
 golang.org/x/sys/unix
-# golang.org/x/text v0.3.2
+# golang.org/x/text v0.7.0
 golang.org/x/text/secure/bidirule
 golang.org/x/text/transform
 golang.org/x/text/unicode/bidi
 golang.org/x/text/unicode/norm
-# golang.org/x/tools v0.0.0-20190628153133-6cdbf07be9d0
+# golang.org/x/tools v0.1.12
 golang.org/x/tools/cmd/goimports
 golang.org/x/tools/go/ast/astutil
 golang.org/x/tools/go/ast/inspector
@@ -313,14 +319,21 @@ golang.org/x/tools/go/gcexportdata
 golang.org/x/tools/go/internal/cgo
 golang.org/x/tools/go/internal/gcimporter
 golang.org/x/tools/go/internal/packagesdriver
+golang.org/x/tools/go/internal/pkgbits
 golang.org/x/tools/go/loader
 golang.org/x/tools/go/packages
 golang.org/x/tools/go/types/typeutil
+golang.org/x/tools/internal/event
+golang.org/x/tools/internal/event/core
+golang.org/x/tools/internal/event/keys
+golang.org/x/tools/internal/event/label
 golang.org/x/tools/internal/fastwalk
+golang.org/x/tools/internal/gocommand
 golang.org/x/tools/internal/gopathwalk
 golang.org/x/tools/internal/imports
-golang.org/x/tools/internal/module
-golang.org/x/tools/internal/semver
+golang.org/x/tools/internal/packagesinternal
+golang.org/x/tools/internal/typeparams
+golang.org/x/tools/internal/typesinternal
 # google.golang.org/api v0.9.0
 google.golang.org/api/appengine/v1
 google.golang.org/api/bigquery/v2
@@ -332,7 +345,6 @@ google.golang.org/api/cloudiot/v1
 google.golang.org/api/cloudkms/v1
 google.golang.org/api/cloudresourcemanager/v1
 google.golang.org/api/cloudresourcemanager/v2beta1
-google.golang.org/api/cloudtasks/v2
 google.golang.org/api/composer/v1beta1
 google.golang.org/api/compute/v0.beta
 google.golang.org/api/compute/v1
